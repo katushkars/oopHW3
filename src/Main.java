@@ -35,9 +35,11 @@ public class Main {
         System.out.println(herbivores2.toString());
         System.out.println(herbivores3.toString());
         System.out.println(amphibians1.toString());
+        amphibians1.eat();
         System.out.println(predator1.toString());
         System.out.println(predator2.toString());
         System.out.println(predator3.toString());
+        predator1.eat();
         System.out.println(flightless1.toString());
         System.out.println(flightless2.toString());
         System.out.println(flightless3.toString());
